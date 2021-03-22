@@ -1,0 +1,126 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+@media only screen and (min-width: 1001px){
+    .col{
+        width: 25%;
+    }
+    .todo{
+    content: "";
+    display: flex;
+    clear: both;
+    height: 397px;
+    }
+    .main{
+        width: 49.4%;
+        order: 1;
+        font-size: 20px;
+    }
+    .right{
+        float: right;    
+        font-size: 19px;
+    }
+    .left{
+        float: left;
+        order: 2;
+        font-size: 19px;
+    }
+    .barra{
+        float: left;
+        width: 50%;
+        padding-top: 30px;
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1000px){
+    .left{
+        width: 49.477%;
+        float: right;
+        
+    }
+    .right{
+        width: 50%;
+        float: left;
+    }
+    .main{
+        width: 100%;
+    }
+    .todo{
+        display: table;
+    }
+    footer{
+        display: flex;
+    }
+    .barra{
+        float: left;
+        width: 50%;
+        padding-top: 30px;
+    }
+}
+@media only screen and (min-width: 320px) and (max-width: 767px){
+    .col{
+        width: 100%;
+        font-size: 15px;
+        display: table;
+    }
+    .barra{
+        padding: 2px;
+        text-align: center;
+    }
+}
+.header{
+    background-color: #aaf;
+    height: 100px;
+    border: 2px solid #000;
+}
+article{
+    background-color: #faa;
+    border: 2px solid #000;
+
+}
+footer{
+    background-color: #afa;
+    border: 2px solid #000;
+    height: 100px;
+}
+.right{
+    border: 1px solid #ff3333;
+    text-align: center;
+    background-color: #faa;
+    position: relative;
+}
+.left{
+    border: 1px solid #ff3333;
+    text-align: center;
+    background-color: #faa;
+    position: relative;
+}
+.main{
+    border: 1px solid #ff3333;
+    text-align: center;
+}
+a{
+    color: #00f;
+    padding: 3px;
+    background: transparent;
+    border: 1px solid #000;
+    border-radius: 2px;
+    position: relative;
+    box-shadow: 0 0 8px #000;
+}
+a:hover{
+    color: #fff;
+    background-color: #afa;
+}
+.a{
+    border: none;
+    box-shadow: none;
+}
+.a:hover{
+    color: #fff;
+    background-color: #aaf;     
+}
